@@ -2,11 +2,15 @@
   "name": "murrdurr",
   "version": "1.0.0",
   "description": "murder mystery thriller",
-  "license": "ISC",
-  "author": "",
+  "license": "MIT",
+  "author": "slidsby27",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^42.1.0"
   }
 }
